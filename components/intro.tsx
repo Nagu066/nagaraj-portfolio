@@ -57,14 +57,29 @@ export default function Intro() {
         </div>
       </div>
 
-      <motion.h1
+      {/* <motion.h1
         className="mb-10 mt-4 px-4 text-2xl font-medium !leading-[1.5] sm:text-4xl"
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
-        <span className="font-bold">Hi, I'm Nagaraj Moger.</span> I'm a{" "}
-        <span className="font-bold">Application developer specializing in React Native, React</span> with{" "}
-        <span className="font-bold">experience building iOS, Android apps and Web Apps</span> 
+        <span className="font-bold">Hi, I'm Nagaraj Moger.</span>
+        <span className="font-bold">Software Engineer building scalable Mobile & Web Applications</span>
+        <span className="font-bold">React Native • Flutter • React • TypeScript</span> 
+      </motion.h1> */}
+      <motion.h1
+        className="mb-10 mt-4 px-4 text-2xl font-medium leading-[1.5] sm:text-4xl"
+        initial={{ opacity: 0, y: 100 }}
+        animate={{ opacity: 1, y: 0 }}
+      >
+        <span className="block font-bold">Hi, I'm Nagaraj Moger.</span>
+
+        <span className="block font-bold">
+          Software Engineer building scalable Mobile & Web Applications
+        </span>
+
+        <span className="block mt-2 text-lg text-gray-600 dark:text-white/70">
+          React Native • Flutter • React • TypeScript
+        </span>
       </motion.h1>
 
       <motion.div
